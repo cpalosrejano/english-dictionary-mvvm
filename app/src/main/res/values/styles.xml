@@ -14,15 +14,33 @@
     </style>
 
 
-    <!-- EDIT TEXT STYLES -->
+    <!-- EditText STYLES -->
 
     <style name="Widget.ENDictionary.TextInputLayout.Outlined" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
     </style>
 
 
-    <!-- TEXT VIEW STYLES -->
+    <!-- TextView STYLES -->
+
+    <style name="Widget.ENDictionary.TextView.Title" parent="TextAppearance.MaterialComponents.Headline5">
+    </style>
+
+    <style name="Widget.ENDictionary.TextView.Body" parent="TextAppearance.MaterialComponents.Body2">
+    </style>
 
     <style name="Widget.ENDictionary.TextView.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle2">
     </style>
+
+    <style name="Widget.ENDictionary.TextView.Caption" parent="TextAppearance.MaterialComponents.Caption">
+    </style>
+
+
+    <!-- ShapeableImageView STYLES -->
+
+    <style name="ShapeAppearance.EnDictionary.Rounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
 
 </resources>
