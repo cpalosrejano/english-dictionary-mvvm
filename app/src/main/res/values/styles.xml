@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- BUTTONS STYLES -->
+
+    <style name="Widget.ENDictionary.Button.Primary" parent="@style/Widget.MaterialComponents.Button">
+    </style>
+
+    <style name="Widget.ENDictionary.Button.Secondary" parent="@style/Widget.MaterialComponents.Button.TextButton">
+    </style>
+
+    <style name="Widget.ENDictionary.Button.Outlined" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+    </style>
+
+
+    <!-- EDIT TEXT STYLES -->
+
+    <style name="Widget.ENDictionary.TextInputLayout.Outlined" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    </style>
+
+
+    <!-- TEXT VIEW STYLES -->
+
+    <style name="Widget.ENDictionary.TextView.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle2">
+    </style>
+
+</resources>
