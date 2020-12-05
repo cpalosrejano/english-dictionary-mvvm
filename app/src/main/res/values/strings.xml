@@ -1,3 +1,19 @@
 <resources>
+
     <string name="app_name">English Dictionary</string>
+
+    <string name="provided_by_owl_bot">Definitions provided by OwlBot.info</string>
+
+    <string name="write_the_word">Write the word</string>
+
+    <string name="search">Search</string>
+
+    <string name="favorites">Favorites</string>
+
+    <string name="history">History</string>
+
+    <string name="about">About</string>
+
+    <string name="options">Options</string>
+
 </resources>
