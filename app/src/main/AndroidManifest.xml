@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EnglishDictionary">
 
-        <activity android:name=".SearchActivity"
+        <activity android:name=".ui.search.SearchActivity"
             android:windowSoftInputMode="adjustNothing">
 
             <intent-filter>

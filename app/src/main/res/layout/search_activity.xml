@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/layout_padding"
-    tools:context=".SearchActivity">
+    tools:context=".ui.search.SearchActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
@@ -43,14 +43,14 @@
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/layout_padding"
         android:layout_marginBottom="@dimen/layout_padding"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/powered_by"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:listitem="@layout/list_item_definition"
         app:layout_constraintTop_toBottomOf="@+id/button_search" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/powered_by"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/provided_by_owl_bot"
