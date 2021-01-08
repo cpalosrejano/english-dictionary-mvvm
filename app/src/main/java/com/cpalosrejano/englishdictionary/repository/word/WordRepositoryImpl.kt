@@ -8,6 +8,6 @@ class WordRepositoryImpl (
 ) : WordRepository {
 
     override suspend fun getWord(word: String): Word? {
-        TODO("Not yet implemented")
+        return remote.getWord(word)?.asDomain()
     }
 }

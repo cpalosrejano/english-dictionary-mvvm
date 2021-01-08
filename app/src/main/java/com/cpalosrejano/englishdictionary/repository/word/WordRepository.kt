@@ -1,7 +1,7 @@
 package com.cpalosrejano.englishdictionary.repository.word
 
 import com.cpalosrejano.englishdictionary.model.Word
-import com.cpalosrejano.englishdictionary.repository.word.dto.WordDTO
+import com.cpalosrejano.englishdictionary.repository.word.remote.dto.WordNetwork
 
 interface WordRepository {
 
@@ -12,16 +12,6 @@ interface WordRepository {
 
     interface LocalDataSource {
 
-        /**
-         * Get from database all definitions for a word
-         */
-        suspend fun getWord(word: String) : WordDTO?
-
-        suspend fun addWord(word: WordDTO) : Boolean
-
-        suspend fun update(word: WordDTO) : Boolean
-
-        suspend fun delete(word: WordDTO) : Boolean
     }
 
     interface RemoteDataSource {
@@ -29,7 +19,7 @@ interface WordRepository {
         /**
          * Make a request to OwlBot to find definition of a word
          */
-        suspend fun getWord(word: String) : WordDTO?
+        suspend fun getWord(word: String) : WordNetwork?
     }
 
 }
