@@ -1,7 +1,6 @@
 package com.cpalosrejano.englishdictionary.repository.word
 
 import com.cpalosrejano.englishdictionary.model.Word
-import com.cpalosrejano.englishdictionary.repository.DTOBase
 import com.cpalosrejano.englishdictionary.repository.word.remote.dto.WordNetwork
 
 interface WordRepository {
@@ -12,7 +11,7 @@ interface WordRepository {
     suspend fun getWord(word: String) : Word?
 
     interface LocalDataSource {
-        
+
     }
 
     interface RemoteDataSource {
